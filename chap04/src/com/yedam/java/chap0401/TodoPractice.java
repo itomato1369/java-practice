@@ -52,7 +52,7 @@ public class TodoPractice {
 //			 
 //			 // next 단어 입력 method
 //  		     String inputData = scanner.nextLine();
-////  		     
+ 		     
 //			 int value = Integer.parseInt(inputData);
 //			 
 //			 if (value == 1) {
@@ -101,22 +101,57 @@ public class TodoPractice {
 		   * while문과 Math.random() method 이용해서 2개 주사위 던졌을 때 나오는
 		   * 눈의 합 (눈1, 눈2) 2개의 합이 5가 아니면 계속 주사위 던짐 5면 멈춤
 		   * */
-		  
+		
+//		  boolean  
+//		  
+//		  while
+		
 		  
 		  //4
+			  
+			  
 		  
 		  
 		  //5
-		  
+			  
+			  
+			  
+			
 		  
 		  //6
+		  /*
+		   * 
+		   * 1. 4줄 처리 
+		   * 2. 한 줄을 구성하는 부분 공백을 출력하는 부분과 *를 출력하는 부분을 구분
+		   * 3. 행과 열 두 곳 다 for문
+		   * 4. 거꾸로 해야 함. 공백이 줄어들기 때문 
+		   * */
+			  for (int row = 1; row <= 4; row++) {
+				  for (int column = 4; column > 0; column--) {
+					  if (column > row) {
+						  System.out.print(" ");
+					  } else {
+						  System.out.print("*");
+					  }
+				  }
+				  System.out.print("\n");
+			  }
 		
 		
 		
-		
+			  for (int len = 1; len <= 4; len++) {
+				  
+				  for (int ch = 1; ch <= (4-len); ch++) {
+					  System.out.print(" ");
+				  }
+				  
+				  for (int i = 1; i <= len; i++) {
+					  System.out.print("*");
+				  }
+				  System.out.print("\n");
+			  }
 		  
-		  
-		  
+		   // null = 참조하는 객체가 없습니다
 		  
 		  
 		  
