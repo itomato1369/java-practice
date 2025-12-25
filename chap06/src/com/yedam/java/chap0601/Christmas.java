@@ -33,7 +33,8 @@ public class Christmas {
             // 순서대로 입력하면 첫 번째 배열의 
             // 인덱스 번호 0번 부터 들어가는건가????
             // new 사용해서 새로운 배열 생성 여기에다 값을 어떻게 넣음??
-            scores = new int[];
+            // scores의 값 배열의 크기는 studnetNum과 같아야겠지??
+            scores = new int[studentNum];
             scores = Integer.parseInt(scanner.nextLine());
 
 
