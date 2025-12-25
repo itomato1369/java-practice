@@ -36,7 +36,7 @@ public class TodoPractice {
 		//     	run = false;
 		//     }
 		// }
-		//   System.out.println("프로그램 종1료");
+		//   System.out.println("프로그램 종료");
           
 		
 		
@@ -52,13 +52,10 @@ public class TodoPractice {
 			 
 // 			 // next 단어 입력 method
 //  		     String inputData = scanner.nextLine();
-<<<<<<< HEAD
  		     
 //			 int value = Integer.parseInt(inputData);
-=======
 // //  		     
 // 			 int value = Integer.parseInt(inputData);
->>>>>>> 0425c6d0857a64b62927252fe9f2f4f719f04c1f
 //			 
 //			 if (value == 1) {
 //				 System.out.println("선택> 1");
@@ -106,7 +103,6 @@ public class TodoPractice {
 		   * while문과 Math.random() method 이용해서 2개 주사위 던졌을 때 나오는
 		   * 눈의 합 (눈1, 눈2) 2개의 합이 5가 아니면 계속 주사위 던짐 5면 멈춤
 		   * */
-<<<<<<< HEAD
 		
 //		  boolean  
 //		  
@@ -116,7 +112,6 @@ public class TodoPractice {
 		  //4
 			  
 			  
-=======
 		  // Math.random(); = 0.0 <= x < 1.0;
 
 		  boolean rollDice = true;
@@ -136,15 +131,13 @@ public class TodoPractice {
 		  
 		  
 		  //4
-		  int rows = 4;
-		  for (int i = 1; i < rows; i++) {
-				String star = "*";
-				System.out.println(star);
-			}
-		}
+		//   int rows = 4;
+		//   for (int i = 1; i < rows; i++) {
+		// 		String star = "*";
+		// 		System.out.println(star);
+		// 	}
+		// }
 		
->>>>>>> 0425c6d0857a64b62927252fe9f2f4f719f04c1f
-		  
 		  
 		  //5
 			  
