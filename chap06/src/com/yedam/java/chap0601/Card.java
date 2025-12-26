@@ -5,7 +5,9 @@ package com.yedam.java.chap0601;
 	 // 실제 기능을 하는 부분
 	    
 	 // Card가 가지는 속성 필드
+	  // 필드 field 
 	 // 카드종류 : 국내용 해외용
+	 // 타입명  필드명 
 	 String type;
 	 // 카드사
 	 String company;
@@ -26,6 +28,7 @@ package com.yedam.java.chap0601;
 	 // method 동작 
 	 // 결제
      void payment(int price) {
+    	 // this 자기 자신
     	 this.amount += price;
      }
 	 
@@ -45,7 +48,9 @@ package com.yedam.java.chap0601;
 	 }
 	
 	  // 생성자
+	 // constructor
 	 // MainExample.java 에서 new 연산자를 이용할 때
+	 
 	 Card (String cardNo, String period, int cvc, String userName) {
 		 this.type = "비자";
 		 this.company = "현대";
